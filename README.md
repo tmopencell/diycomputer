@@ -46,10 +46,10 @@ A [raspi touchscreencase from pihut](https://thepihut.com/products/raspberry-pi-
 
 This is a laptop built using a Raspberry Pi and is very cool! It is a little more expensive and you can choose from two different options. I just bought the V1 (cheaper model) and update this once I have had a chance to build it. There is a comparison sheet [Pitop V1 vs Pitop V2:](https://docs-emea.rs-online.com/webdocs/15ea/0900766b815ea49b.pdf) that explains the differences in more detail. Basically the V1 is cheaper, few less features and is a bit more fiddly to assemble.
 
-* [Pitop V1 DEVELOPMENT kit @RSComponents (229.19):](https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/9176213/)
+* [Pitop V1 DEVELOPMENT kit @ RSComponents](https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/9176213/) **£229**
 You can pick up this kit quite cheaply and it is worth checking the manual [Pitop V1 Manual:](https://docs-emea.rs-online.com/webdocs/1561/0900766b81561abb.pdf) it looks like ti will take a little time to assemble. It was slightly unclear from the website exactly what is included. 
 
-* [Pitop V2 DEVELOPMENT kit @ RSComponents (£265.19):](https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1469335/)
+* [Pitop V2 DEVELOPMENT kit @ RSComponents](https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1469335/) **£265**
 The new version has a rail where you can plug in additional expansion packs like a sound board etc. 
 
 ### Cheap Laptop Version (between £100 - £500)
@@ -78,14 +78,22 @@ This is designed and build for linux flavoured operating systems. I have not use
 ## Operating Systems
 
 ### Raspbian
+This is the go-to way to get started. You head over to the Raspberry Pi official website [downloads section](https://www.raspberrypi.org/downloads/raspbian/) and download the zip file for Raspbian Buster with desktop and recommended software. They have an [install guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
 
 ### Kali Linux
+If you want to be a hacker then this is your go to option. It comes preloaded with a ton of **pentesting** software. Tools for hacking wifi and bluetooth and more. 
+
+If you want to give it a try then a [**bootable USB**](https://docs.kali.org/downloading/kali-linux-live-usb-install) is your best option ([for mac installers](https://gist.github.com/widdowquinn/90eecc3a9a52ceb997a1715894df1cc3)). This turns oyur usb into a little harddrive and while booting your systm you can select the usb installed operating system. 
 
 ### Pitop OS
 
+The Pi-Top Laptop also has its own operating system. It is based on raspbian.
+
+Follow their [instructions](https://www.pi-top.com/products/os) for install.
+
 ### Other flavours and build your own!
 
- (Cambridge CompSci website)!
+Raspbain is a flovour of Linux and is completely *opensource*. You can modify or build a version from scratch. The Raspberry Pi was invented in the Cambridge Computer Science department and their website wtill has some great documentation! 
 
 ### SD card/Flash drive on a mac or pc. 
 
