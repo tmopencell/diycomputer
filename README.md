@@ -2,11 +2,11 @@
 
 ## BUILD
 
-### DIY Version
+### DIY Version (under £200)
 
 **Parts List**
 
-[CLICK HERE (UK SHOPPERS) for amazon prime list](http://amzn.eu/8gzaK4K)
+**LAZY? [CLICK HERE (UK SHOPPERS) for amazon prime list](http://amzn.eu/8gzaK4K)**
 
 **Full list of parts:**
 This list gives you the details about each item and why it was chosen and what to look for if you want to replace it with something different. While the goal was to keep the cost as low as possible we didn't just choose the cheapest item but rather the best based on a balance of performance/price. 
@@ -44,19 +44,36 @@ A [raspi touchscreencase from pihut](https://thepihut.com/products/raspberry-pi-
 
 ### PI-Top (Laptop) Version (under £300)
 
-[Pitop V2 DEVELOPMENT kit @ RSComponents (£265.19):](https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1469335/)
+This is a laptop built using a Raspberry Pi and is very cool! It is a little more expensive and you can choose from two different options. I just bought the V1 (cheaper model) and update this once I have had a chance to build it. There is a comparison sheet [Pitop V1 vs Pitop V2:](https://docs-emea.rs-online.com/webdocs/15ea/0900766b815ea49b.pdf) that explains the differences in more detail. Basically the V1 is cheaper, few less features and is a bit more fiddly to assemble.
 
-[Pitop V1 DEVELOPMENT kit @RSComponents (229.19):](https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/9176213/)
+* [Pitop V1 DEVELOPMENT kit @RSComponents (229.19):](https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/9176213/)
+You can pick up this kit quite cheaply and it is worth checking the manual [Pitop V1 Manual:](https://docs-emea.rs-online.com/webdocs/1561/0900766b81561abb.pdf) it looks like ti will take a little time to assemble. It was slightly unclear from the website exactly what is included. 
 
-[Pitop V1 Manual:](https://docs-emea.rs-online.com/webdocs/1561/0900766b81561abb.pdf)
+* [Pitop V2 DEVELOPMENT kit @ RSComponents (£265.19):](https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1469335/)
+The new version has a rail where you can plug in additional expansion packs like a sound board etc. 
 
-[Pitop V1 vs Pitop V2:](https://docs-emea.rs-online.com/webdocs/15ea/0900766b815ea49b.pdf)
+### Cheap Laptop Version (between £100 - £500)
 
-### Cheap Laptop Version
+Building your own computer is a god experience and is not too expensive either. But another option is to buy a really cheap laptop and there are a few out there that are worth noting. 
 
-Ultra cheap:
+**Ultra cheap:**
 
-[Linux compatible and affordable:](https://starlabs.systems/pages/star-labtop-compare)
+* [Pink Mini Laptop](https://www.amazon.co.uk/dp/B006HDQE9U/ref=psdc_429886031_t2_B07X39YFY8)
+**£65** 0.5gb ram with VIA processor (which I had never heard of before this) and runs android. No idea if it runs Linux 
+
+* [BIGMAC 10 Inch](https://www.amazon.co.uk/BIGMAC-Computer-Android-Notebook-Netbook/dp/B07X39YFY8/ref=sr_1_13?keywords=laptop&qid=1570990690&sr=8-13&th=1)
+**£112** 1gb ram with an ARM quad core (*not intel*) processor and runs android (like a cell phone). No idea if this will run Linux but if it does it would be very handy.  But it does come in pink!
+
+* [Pinebook 64](https://store.pine64.org/?product=11-6-pinebook)
+**$99** 2gb ram with an ARM quad core processor and is built for linux. It says out of stock and not sure what shipping costs (or speeds) to UK would be. 
+
+* [ASUS Chromebook](https://www.amazon.co.uk/ASUS-Chromebook-C223NA-GJ0014-Notebook-Processor/dp/B07HJHMCX2/ref=sr_1_fkmr0_1?keywords=ASUS+F556UA-EB71+Notebook+15.6%22+FHD%2C+Intel+Dual-Core+i7+8GB+DDR3+1TB+Windows+10%2C+Dark+Blue&linkCode=gs3&qid=1570992354&s=computers&sr=1-1-fkmr0)
+**£170** 4gb ram wth an Intel dual core processor and used (and [recommended](https://portableobserver.com/best-cheap-laptop-for-linux/) by) lots of Linux users. 
+
+**Affordable:**
+
+* [Linux compatible and affordable:](https://starlabs.systems/pages/star-labtop-compare)
+This is designed and build for linux flavoured operating systems. I have not used it but at ~ £500 it is pretty good value. 
 
 ## Operating Systems
 
