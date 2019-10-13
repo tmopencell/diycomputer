@@ -4,13 +4,43 @@
 
 ### DIY Version
 
-[Some options](https://tutorials-raspberrypi.com/raspberry-pi-3-cases-2b/)
+**Parts List**
 
-[Build a tablet (Adafruit)](https://learn.adafruit.com/7-portable-raspberry-pi-multitouch-tablet/overview)
+[CLICK HERE (UK SHOPPERS) for amazon prime list](http://amzn.eu/8gzaK4K)
 
-[Handy touchsreen cases](https://averagemaker.com/2016/05/touchscreen-display-case-options.html)
+**Full list of parts:**
+This list gives you the details about each item and why it was chosen and what to look for if you want to replace it with something different. While the goal was to keep the cost as low as possible we didn't just choose the cheapest item but rather the best based on a balance of performance/price. 
 
-[Raspi touchscreencase from pihut](https://thepihut.com/products/raspberry-pi-official-7-touchscreen-case)
+* [Touch Screen Display](https://www.amazon.co.uk/Raspberry-Pi-7-Inch-Screen-Display/dp/B014WKCFR4/ref=sr_1_4?keywords=smartpi+touch&qid=1570984115&sr=8-4)
+This is the screen (about 7 inches) for interacting with the computer
+
+* [Touchscreen and Computer Housing](https://www.amazon.co.uk/gp/product/B01HV97F64/ref=ox_sc_act_title_6?smid=A337FVOX35P1H8&psc=1)
+This is the housing for the touchscreen and on the back the computer location
+
+* [Raspberry Pi 3 Model B+](https://www.amazon.co.uk/gp/product/B07BDR5PDW/ref=ox_sc_act_title_2?smid=A1TGP1G2G7H27C&psc=1)
+The actual computer. It is a credit card sized computer that was designed in Cambridge about 10 years ago. Depite being less than £40 it is still pretty nifty and we will make good use of it. 
+
+* [microSD card](https://www.amazon.co.uk/gp/product/B06XFZV9JY/ref=ox_sc_act_title_1?smid=A3P5ROKL5A1OLE&psc=1)
+This is the storage (memory) for the computer. It is where all the files and programs are stored. This one is pretty good, it has 64gb of memory which is fine but the read/write speed is impressive at about 100mb/sec. Basically the higher this number the better. 
+
+* [Keyboard](https://www.amazon.co.uk/gp/product/B01G6XGLQQ/ref=ox_sc_act_title_5?smid=A2CBW8FNZCDSJI&psc=1)
+You can use almost any keyboard. This one was cute and small wireless model and has a built in trackpad mouse which seemed convenient. Amazon also has the amazon basic range and that would be a good option too. 
+
+* [MicroUSB power plug](https://www.amazon.co.uk/gp/product/B07FR9L4RC/ref=ox_sc_act_title_4?smid=A1FRA7QRK2Q428&psc=1)
+This one is **5V** can deliver up to **3.0 A** meaning your computer, or battery will have plenty of juice (and is regulated meaning device will only draw as much current as they need). 
+
+* [Battery (optional but good to have)](https://www.amazon.co.uk/gp/product/B075M9LXNY/ref=ox_sc_act_title_3?smid=A1BGBH9ECNVD5F&psc=1)
+This is perfect if you want to make the device portable. You ideally want something with lots of energy and the units **mAh** indicates how much it has and a bigger number the better. This battery can deliver 24800 **mA** each hour **h**, this should mean that the computer can last 1-2 hours on a full charge! 
+
+**Other resources**
+
+Here are some [different style cases](https://tutorials-raspberrypi.com/raspberry-pi-3-cases-2b/) for the screen and the computer.
+
+Cool guide on how to [build a tablet (Adafruit)](https://learn.adafruit.com/7-portable-raspberry-pi-multitouch-tablet/overview).
+
+Other [handy touchsreen cases](https://averagemaker.com/2016/05/touchscreen-display-case-options.html).
+
+A [raspi touchscreencase from pihut](https://thepihut.com/products/raspberry-pi-official-7-touchscreen-case).
 
 ### PI-Top (Laptop) Version (under £300)
 
