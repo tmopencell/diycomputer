@@ -16,12 +16,12 @@ It is broken into 3 main chapters:
 4. [COOL PROJECT IDEAS](https://github.com/tmopencell/diycomputer#cool-project-ideas)
 
 ## 1. BUILD
+This section describes how you can build a very cheap computer. By "_computer_" we mean a machine with a monitor and keyboard for interaction. Three options are available. The DIY version described here is the reason we wrote this course so it is our recommended version! It is very cheap and will create a very useful hackable computer.  
 
 ### 1. a. DIY Version (under £200)
+This is why we created this tutorial since there was no DIY project online for building a portable computer that you could use like a computer/laptop. But it is possible and very cheap! You just need to buy about 7 parts and you are ready to go.
 
-**Parts List**
-
-**LAZY? [CLICK HERE (UK SHOPPERS) for amazon prime list](http://amzn.eu/8gzaK4K)**
+**LAZY? PARTS LIST: [CLICK HERE (UK SHOPPERS) for amazon prime list](http://amzn.eu/8gzaK4K)**
 
 **Full list of parts:**
 This list gives you the details about each item and why it was chosen and what to look for if you want to replace it with something different. While the goal was to keep the cost as low as possible we didn't just choose the cheapest item but rather the best based on a balance of performance/price. 
@@ -47,6 +47,12 @@ This one is **5V** can deliver up to **3.0 A** meaning your computer, or battery
 * [Battery (optional but good to have)](https://www.amazon.co.uk/gp/product/B075M9LXNY/ref=ox_sc_act_title_3?smid=A1BGBH9ECNVD5F&psc=1)
 This is perfect if you want to make the device portable. You ideally want something with lots of energy and the units **mAh** indicates how much it has and a bigger number the better. This battery can deliver 24800 **mA** each hour **h**, this should mean that the computer can last 1-2 hours on a full charge! 
 
+**Assembly Instructions**
+
+Pictures and details to follow! Probably after the lecture on 23rd October... 
+
+Once assembled skip to [this section](https://github.com/tmopencell/diycomputer#raspbian) to read about software installation.
+
 **Other resources**
 
 Here are some [different style cases](https://tutorials-raspberrypi.com/raspberry-pi-3-cases-2b/) for the screen and the computer.
@@ -67,6 +73,12 @@ You can pick up this kit quite cheaply and it is worth checking the manual [Pito
 * [Pitop V2 DEVELOPMENT kit @ RSComponents](https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1469335/) **£265**
 The new version has a rail where you can plug in additional expansion packs like a sound board etc. 
 
+**Assembly Instructions**
+
+Follow the instructions in [Pitop V1 Manual:](https://docs-emea.rs-online.com/webdocs/1561/0900766b81561abb.pdf). I have not built it yet so will update once I have. 
+
+Once you have assembled skip to [this section](https://github.com/tmopencell/diycomputer#pitop-os) for software installation instructions. 
+
 ### 1. c. Cheap Laptop Version (between £100 - £500)
 
 Building your own computer is a god experience and is not too expensive either. But another option is to buy a really cheap laptop and there are a few out there that are worth noting. 
@@ -75,6 +87,7 @@ Building your own computer is a god experience and is not too expensive either. 
 
 * [Pink Mini Laptop](https://www.amazon.co.uk/dp/B006HDQE9U/ref=psdc_429886031_t2_B07X39YFY8)
 **£65** 0.5gb ram with VIA processor (which I had never heard of before this) and runs android. No idea if it runs Linux 
+**NOTE** I bought this since it was the cheapest machine I could find. Will update with a review. 
 
 * [BIGMAC 10 Inch](https://www.amazon.co.uk/BIGMAC-Computer-Android-Notebook-Netbook/dp/B07X39YFY8/ref=sr_1_13?keywords=laptop&qid=1570990690&sr=8-13&th=1)
 **£112** 1gb ram with an ARM quad core (*not intel*) processor and runs android (like a cell phone). No idea if this will run Linux but if it does it would be very handy.  But it does come in pink!
@@ -91,26 +104,26 @@ Building your own computer is a god experience and is not too expensive either. 
 This is designed and build for linux flavoured operating systems. I have not used it but at ~ £500 it is pretty good value. 
 
 ## 2. OPERATING SYSTEMS
+Once you have the computer you will need to put an operating system on it to be able to run programs and go online. We will not be using any Microsoft products like Windows but instead will rely on _opensource_ Liunx based system. 
 
 ### Raspbian
-This is the go-to way to get started. You head over to the Raspberry Pi official website [downloads section](https://www.raspberrypi.org/downloads/raspbian/) and download the zip file for Raspbian Buster with desktop and recommended software. They have an [install guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
-
-### Kali Linux
-If you want to be a hacker then this is your go to option. It comes preloaded with a ton of **pentesting** software. Tools for hacking wifi and bluetooth and more. 
-
-If you want to give it a try then a [**bootable USB**](https://docs.kali.org/downloading/kali-linux-live-usb-install) is your best option ([for mac installers](https://gist.github.com/widdowquinn/90eecc3a9a52ceb997a1715894df1cc3)). This turns oyur usb into a little harddrive and while booting your systm you can select the usb installed operating system. 
+This is the go-to way to get started for the DIY computer build (version [1. a.](https://github.com/tmopencell/diycomputer#1-a-diy-version-under-200) above). You head over to the Raspberry Pi official website [downloads section](https://www.raspberrypi.org/downloads/raspbian/) and download the zip file for Raspbian Buster with desktop and recommended software. They have an [install guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
 
 ### Pitop OS
-
-The Pi-Top Laptop also has its own operating system. It is based on raspbian.
+If you built the Pi-Top Laptop (version [1. b.](https://github.com/tmopencell/diycomputer#1-b-pi-top-laptop-version-under-300) above) then also has its own operating system. It is very similar and based on raspbian.
 
 You can choose which version on their [downloads](https://www.pi-top.com/products/os) page and follow their [installation instructions](https://blog.pi-top.com/2016/10/13/how-to-install-pi-topos-to-a-microsd-card).
 
+### Kali Linux
+If you want to be a hacker then this is your go to option. It comes preloaded with a ton of **pentesting** software. Tools for hacking wifi and bluetooth and more. Watch [Mr. Robot](https://en.wikipedia.org/wiki/Mr._Robot) and you will see them use this ALLLLL the time. 
+
+There is a special version built for the Raspberry Pi but in general expect lots of issues.. It is built for hackers and always very buggy. [Visit the Kali instruction/download page](https://docs.kali.org/kali-on-arm/install-kali-linux-arm-raspberry-pi).
+
+If you just want to give it a try you can use your own laptop and a [**bootable USB**](https://docs.kali.org/downloading/kali-linux-live-usb-install) is your best option ([for mac installers](https://gist.github.com/widdowquinn/90eecc3a9a52ceb997a1715894df1cc3)). This turns oyur usb into a little harddrive and while booting your systm you can select the usb installed operating system. 
+
 ### Other flavours and build your own!
 
-Raspbain is a flovour of Linux and is completely *opensource*. You can modify or build a version from scratch. The Raspberry Pi was invented in the Cambridge Computer Science department and their website still has some [great documentation and resources](https://www.cl.cam.ac.uk/projects/raspberrypi/)! In particular it has a tutorial on [building an operating system from scratch](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/). I have never done that one but I think if you did it would teach you a lot!
-
-### SD card/Flash drive on a mac or pc. 
+Raspbain is a flovour of Linux and is completely **opensource**. You can modify or build a version from scratch. The Raspberry Pi was invented in the Cambridge Computer Science department and their website still has some [great documentation and resources](https://www.cl.cam.ac.uk/projects/raspberrypi/)! In particular it has a tutorial on [building an operating system from scratch](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/). I have never done that one but I think if you did it would teach you a lot!
 
 ## 3. INTRO TO CODING
 
