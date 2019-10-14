@@ -1,8 +1,23 @@
 # Make your own computer:
 
-## BUILD
+This is a project where you will make your own computer and learn the basics of coding! It is intended for people who have never coded before but could still have some interesting bits for people who like low-cost DIY computer projects.
+This is the accompanying notes for a lecture course given at the RCA 23rd October 2019. However, I wrote it so that anyone can use it! Please give feedback so we can imprve the course! 
 
-### DIY Version (under £200)
+It is broken into 3 main chapters:
+
+1. [BUILD](https://github.com/tmopencell/diycomputer#build)
+    - a. DIY Version
+    - b. PI-Top (Laptop) Version
+    - c. Cheap Laptop Version
+2. [OPERATING SYSTEMS](https://github.com/tmopencell/diycomputer#operating-systems)
+
+3. [INTRO TO CODING](https://github.com/tmopencell/diycomputer#intro-to-coding)
+
+4. [COOL PROJECT IDEAS](https://github.com/tmopencell/diycomputer#cool-project-ideas)
+
+## 1. BUILD
+
+### 1. a. DIY Version (under £200)
 
 **Parts List**
 
@@ -42,7 +57,7 @@ Other [handy touchsreen cases](https://averagemaker.com/2016/05/touchscreen-disp
 
 A [raspi touchscreencase from pihut](https://thepihut.com/products/raspberry-pi-official-7-touchscreen-case).
 
-### PI-Top (Laptop) Version (under £300)
+### 1. b. PI-Top (Laptop) Version (under £300)
 
 This is a laptop built using a Raspberry Pi and is very cool! It is a little more expensive and you can choose from two different options. I just bought the V1 (cheaper model) and update this once I have had a chance to build it. There is a comparison sheet [Pitop V1 vs Pitop V2:](https://docs-emea.rs-online.com/webdocs/15ea/0900766b815ea49b.pdf) that explains the differences in more detail. Basically the V1 is cheaper, few less features and is a bit more fiddly to assemble.
 
@@ -52,7 +67,7 @@ You can pick up this kit quite cheaply and it is worth checking the manual [Pito
 * [Pitop V2 DEVELOPMENT kit @ RSComponents](https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1469335/) **£265**
 The new version has a rail where you can plug in additional expansion packs like a sound board etc. 
 
-### Cheap Laptop Version (between £100 - £500)
+### 1. c. Cheap Laptop Version (between £100 - £500)
 
 Building your own computer is a god experience and is not too expensive either. But another option is to buy a really cheap laptop and there are a few out there that are worth noting. 
 
@@ -75,7 +90,7 @@ Building your own computer is a god experience and is not too expensive either. 
 * [Linux compatible and affordable:](https://starlabs.systems/pages/star-labtop-compare)
 This is designed and build for linux flavoured operating systems. I have not used it but at ~ £500 it is pretty good value. 
 
-## Operating Systems
+## 2. OPERATING SYSTEMS
 
 ### Raspbian
 This is the go-to way to get started. You head over to the Raspberry Pi official website [downloads section](https://www.raspberrypi.org/downloads/raspbian/) and download the zip file for Raspbian Buster with desktop and recommended software. They have an [install guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
@@ -93,25 +108,25 @@ You can choose which version on their [downloads](https://www.pi-top.com/product
 
 ### Other flavours and build your own!
 
-Raspbain is a flovour of Linux and is completely *opensource*. You can modify or build a version from scratch. The Raspberry Pi was invented in the Cambridge Computer Science department and their website wtill has some great documentation! 
+Raspbain is a flovour of Linux and is completely *opensource*. You can modify or build a version from scratch. The Raspberry Pi was invented in the Cambridge Computer Science department and their website still has some [great documentation and resources](https://www.cl.cam.ac.uk/projects/raspberrypi/)! In particular it has a tutorial on [building an operating system from scratch](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/). I have never done that one but I think if you did it would teach you a lot!
 
 ### SD card/Flash drive on a mac or pc. 
 
-## Intro to coding
+## 3. INTRO TO CODING
 
 ### The Toolkit
 Github, Terminal and Sublime Text
 
 **Github**
-The first thing you are going to need if you plan to start coding is a github profile. Well, you don't actually need a profile but if you have one it can be a convenient place to share your projects. 
+Something that is very useful if you plan to start coding is a github profile. Well, you don't actually need a profile but if you have one it can be a convenient place to share your projects. 
 
 * Step 1 - [Join](https://github.com/join)
 Sign up like you would for any webpage with a username and a password. 
 
-*Step 2 - [Create your first respoitory]()
+* Step 2 - [Create your first respository]()
 
 **Terminal**
-A terminal is your "_command line interface_" and is you link to the under the hood of your computer. If you are using a Raspberry Pi then all you need to do is to select the terminal from the drop down menu in the right corner! If you are a mac user then you can type **cmd** + **space** and then type **terminal** and the default terminal will open. Using Windows? God help you.. Go elsewhere, this tutorial is not for you. **NOTE** for mac users you can install [**iterm2**](https://iterm2.com/) which is a nice alternative to the not so nice built in terminal.
+A terminal is your "_command line interface_" and is you link to the under the hood of your computer. If you are using a Raspberry Pi then all you need to do is to select the terminal from the drop down menu in the right corner! If you are a mac user then you can type **cmd** + **space** and then type **terminal** and the default terminal will open. Using Windows? God help you.. Go elsewhere, this tutorial is not for you. **NOTE** for mac users you can install [**iterm2**](https://iterm2.com/) which is a nice alternative to the not so nice built-in terminal.
 
 **Sublime Text 2**
 If you want to be lazy and write code then [Sublime Text 2](https://www.sublimetext.com/2) is your friend. It will have different colours for different commands and auto fill stuff out for you. Complete laziness. 
@@ -122,21 +137,23 @@ Seriously, 5 commands will get you VERY far in coding. Open a Terminal and getti
 **Navigation** 
 Getting to grips with the basics of coding starts with a little navigation. Once you open your terminal you will be in the "_home directory_". This just means that you are in your main folder. All your files live here, things like your programs, documents etc.  
 
-`sudo` is the master command. It grants you "_superuser priviledges_" meaning you can have "_root_" access when you use it. If this doesn't make sense right away don't worry, it will soon.   
+1. `sudo` is the master command. It grants you "_superuser priviledges_" meaning you can have "_root_" access when you use it. If this doesn't make sense right away don't worry, it will soon.   
 
-`ls` means "_list current directory_". When you type it it will print all the files and folders that are present in the folder you are currently in.  
+2. `ls` means "_list current directory_". When you type it it will print all the files and folders that are present in the folder you are currently in.  
 
-`cd` means "_change directory_". If you type ls and you see a folder that you would like to enter then type `cd <insertfoldername>` and you will enter that folder. Tired of that folder? You can type `cd` and it brings you back to your home directory or `cd ..` to move up one directory.
+3. `cd` means "_change directory_". If you type ls and you see a folder that you would like to enter then type `cd <insertfoldername>` and you will enter that folder. Tired of that folder? You can type `cd` and it brings you back to your home directory or `cd ..` to move up one directory.
 
-`mkdir` "_creates a new directory_" (or folder). Say you decide you want to creat a new folder called "_myprojects_", you would just type `mkdir myprojects`. The type `ls` and you will see your new folder listed. You can then type `cd myprojects` and you will enter your new folder.
+4. `mkdir` "_creates a new directory_" (or folder). Say you decide you want to creat a new folder called "_myprojects_", you would just type `mkdir myprojects`. The type `ls` and you will see your new folder listed. You can then type `cd myprojects` and you will enter your new folder.
 
-`nano` "_a file editor_". `Nano` allows you to edit files or "_scripts_" and this is one of the ways you will create your first program. Type `nano helloworld.sh` and you will be brough to a blank screen. Now type `echo "Hello World!"` and then type the **ctrl** and **x** button on your keyboard at the same time. It will ask "do you want to save (y/n)" and type **y** and **enter** (the return key). Now you are back to the command line! type `ls` and you should see your first program "_helloworld.sh" sitting there! If you then type `chmod +x helloworld.sh` you file will now be "_executible_" meaning  you can run it like any other program. Now type `./helloworld.sh` and you should see the statement `Hello World!` appear on your terminal! This sounds very simple but it is the routine wya to start when learning a new language or even just tring to make sure your code is running. Well done! 
+5. `nano` "_a file editor_". `Nano` allows you to edit files or "_scripts_" and this is one of the ways you will create your first program. Type `nano helloworld.sh` and you will be brough to a blank screen. Now type `echo "Hello World!"` and then type the **ctrl** and **x** button on your keyboard at the same time. It will ask "do you want to save (y/n)" and type **y** and **enter** (the return key). Now you are back to the command line! type `ls` and you should see your first program "_helloworld.sh" sitting there! If you then type `chmod +x helloworld.sh` you file will now be "_executable_" meaning  you can run it like any other program. Now type `./helloworld.sh` and you should see the statement `Hello World!` appear on your terminal! This sounds very simple but it is the routine wya to start when learning a new language or even just tring to make sure your code is running. Well done! 
 
 ### Python 
 Python is great. Everybody uses python and that means so much has already been tried. It makes it ideal for beginners and lazy copy/paste programmers. 
 
 ### Git
 I hate git. I have never really understood it and I exclusively copy and paste the essential commands from the web. But you do need it for getting repositories from gihub and to keep your repositories up to date with your profile...  
+
+This is the [intro](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) I would recommend.
 
 ### Real programming: copy, paste and debug.
 
@@ -148,10 +165,14 @@ The other best resource on the web is [StackOverflow](https://www.stackoverflow.
 
 Don't be ashamed of using these techniques! Coders rarely type super fast and look like Mr. Robot. The dirty truth is they sit around most of the day scratching their heads to find out why their software wont run. So copy, paste and debug.   
 
-## Cool projects to get started
-Coming soon... 
+## 4. COOL PROJECT IDEAS
 
 ### Build a website
+You can buid a github webpage free and easily as described above but you could also host your own webpage! Read on.. 
+
+```
+Coming Soon..
+```
 
 ### Build a game
-
+Minecraft is a very simple (but additictive) game and yuo can use a [Raspberry Pi to program your own game](https://www.minecraft.net/en-us/edition/pi/)! 
