@@ -89,7 +89,7 @@ If you want to give it a try then a [**bootable USB**](https://docs.kali.org/dow
 
 The Pi-Top Laptop also has its own operating system. It is based on raspbian.
 
-Follow their [instructions](https://www.pi-top.com/products/os) for install.
+You can choose which version on their [downloads](https://www.pi-top.com/products/os) page and follow their [installation instructions](https://blog.pi-top.com/2016/10/13/how-to-install-pi-topos-to-a-microsd-card).
 
 ### Other flavours and build your own!
 
@@ -100,20 +100,43 @@ Raspbain is a flovour of Linux and is completely *opensource*. You can modify or
 ## Intro to coding
 
 ### The Toolkit
+Github, Terminal and Sublime Text
 
-Github, Terminal and Sublime text
+**Github**
+The first thing you are going to need if you plan to start coding is a github profile. Well, you don't actually need a profile but if you have one it can be a convenient place to share your projects. 
+
+* Step 1 - [Join](https://github.com/join)
+Sign up like you would for any webpage with a username and a password. 
+
+*Step 2 - [Create your first respoitory]()
+
+**Terminal**
+A terminal is your "_command line interface_" and is you link to the under the hood of your computer. If you are using a Raspberry Pi then all you need to do is to select the terminal from the drop down menu in the right corner! If you are a mac user then you can type **cmd** + **space** and then type **terminal** and the default terminal will open. Using Windows? God help you.. Go elsewhere, this tutorial is not for you. **NOTE** for mac users you can install [**iterm2**](https://iterm2.com/) which is a nice alternative to the not so nice built in terminal.
+
+**Sublime Text 2**
+If you want to be lazy and write code then [Sublime Text 2](https://www.sublimetext.com/2) is your friend. It will have different colours for different commands and auto fill stuff out for you. Complete laziness. 
 
 ### *Bash* 5 commands is all you need to get started!
- 
-sudo, 
-ls, 
-cd, 
-mkdir, 
-nano
+Seriously, 5 commands will get you VERY far in coding. Open a Terminal and getting a feel of what is happening and start playing. 
 
-Some extras
+**Navigation** 
+Getting to grips with the basics of coding starts with a little navigation. Once you open your terminal you will be in the "_home directory_". This just means that you are in your main folder. All your files live here, things like your programs, documents etc.  
+
+`sudo` is the master command. It grants you "_superuser priviledges_" meaning you can have "_root_" access when you use it. If this doesn't make sense right away don't worry, it will soon.   
+
+`ls` means "_list current directory_". When you type it it will print all the files and folders that are present in the folder you are currently in.  
+
+`cd` means "_change directory_". If you type ls and you see a folder that you would like to enter then type `cd <insertfoldername>` and you will enter that folder. Tired of that folder? You can type `cd` and it brings you back to your home directory or `cd ..` to move up one directory.
+
+`mkdir` "_creates a new directory_" (or folder). Say you decide you want to creat a new folder called "_myprojects_", you would just type `mkdir myprojects`. The type `ls` and you will see your new folder listed. You can then type `cd myprojects` and you will enter your new folder.
+
+`nano` "_a file editor_". `Nano` allows you to edit files or "_scripts_" and this is one of the ways you will create your first program. Type `nano helloworld.sh` and you will be brough to a blank screen. Now type `echo "Hello World!"` and then type the **ctrl** and **x** button on your keyboard at the same time. It will ask "do you want to save (y/n)" and type **y** and **enter** (the return key). Now you are back to the command line! type `ls` and you should see your first program "_helloworld.sh" sitting there! If you then type `chmod +x helloworld.sh` you file will now be "_executible_" meaning  you can run it like any other program. Now type `./helloworld.sh` and you should see the statement `Hello World!` appear on your terminal! This sounds very simple but it is the routine wya to start when learning a new language or even just tring to make sure your code is running. Well done! 
 
 ### Python 
+Python is great. Everybody uses python and that means so much has already been tried. It makes it ideal for beginners and lazy copy/paste programmers. 
+
+### Git
+I hate git. I have never really understood it and I exclusively copy and paste the essential commands from the web. But you do need it for getting repositories from gihub and to keep your repositories up to date with your profile...  
 
 ### Real programming: copy, paste and debug.
 
@@ -126,6 +149,7 @@ The other best resource on the web is [StackOverflow](https://www.stackoverflow.
 Don't be ashamed of using these techniques! Coders rarely type super fast and look like Mr. Robot. The dirty truth is they sit around most of the day scratching their heads to find out why their software wont run. So copy, paste and debug.   
 
 ## Cool projects to get started
+Coming soon... 
 
 ### Build a website
 
