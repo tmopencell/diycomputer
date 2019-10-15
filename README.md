@@ -75,13 +75,13 @@ The new version has a rail where you can plug in additional expansion packs like
 
 **Assembly Instructions**
 
-Follow the instructions in [Pitop V1 Manual:](https://docs-emea.rs-online.com/webdocs/1561/0900766b81561abb.pdf). I have not built it yet so will update once I have. 
+Follow the instructions in [Pitop V1 Manual:](https://docs-emea.rs-online.com/webdocs/1561/0900766b81561abb.pdf). I have not built it yet,  so will update once I have. 
 
 Once you have assembled skip to [this section](https://github.com/tmopencell/diycomputer#pitop-os) for software installation instructions. 
 
 ### 1. c. Cheap Laptop Version (between £100 - £500)
 
-Building your own computer is a good experience and is not too expensive either. But another option is to buy a really cheap laptop and there are a few out there that are worth noting. 
+Building your own computer is a good experience and is not too expensive either. But, another option is to buy a really cheap laptop. There are a few out there that are worth noting. 
 
 **Ultra cheap:**
 
