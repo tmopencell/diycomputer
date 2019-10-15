@@ -134,15 +134,42 @@ Github, Terminal and Sublime Text
 Something that is very useful if you plan to start coding is a github profile. Well, you don't actually need a profile but if you have one it can be a convenient place to share your projects. 
 
 * Step 1 - [Join](https://github.com/join)
-Sign up like you would for any webpage with a username and a password. 
+Sign up like you would for any webpage with a username and a password. You will likely have to verify your email as well.
 
-* Step 2 - [Create your first respository]()
+* Step 2 - Create your first respository. There should be a button that you click on. 
 
+* Step 3 - Label your repository name as <your username>.github.io. Give it a description "_My Webpage_". Initialize with a readme.md
+
+* Step 4 - Click on settings and scroll down to  **Github Pages** and click on use **theme** button. Then copy your repository name (It will be <your username>.github.io) and paste it into a new tabe and your will see your first webpage! 
+
+* Step 5 - Git at the command line:
+
+    - `git clone https://github.com/<your username>/<your repository name>.git`
+
+    - nano index.md
+    - `git add *`
+    
+    - `git commit -m "my first commit"`
+
+    - `git push origin master`
+
+    - You made your first local change and pushed it to the online repository!
+
+    - Markdown introduction
+
+    - `open -a Sublime Text 2 ` 
+* Step 6 - (optional) Customise your webpage! Skip to [Build a webpage section](https://github.com/tmopencell/diycomputer#build-a-website).
+    
+    - 
 **Terminal**
 A terminal is your "_command line interface_" and is you link to the under the hood of your computer. If you are using a Raspberry Pi then all you need to do is to select the terminal from the drop down menu in the right corner! If you are a mac user then you can type **cmd** + **space** and then type **terminal** and the default terminal will open. Using Windows? God help you.. Go elsewhere, this tutorial is not for you. **NOTE** for mac users you can install [**iterm2**](https://iterm2.com/) which is a nice alternative to the not so nice built-in terminal.
 
 **Sublime Text 2**
 If you want to be lazy and write code then [Sublime Text 2](https://www.sublimetext.com/2) is your friend. It will have different colours for different commands and auto fill stuff out for you. Complete laziness. 
+
+You need to edit your .bash_profile in order to use subl at the cmd line!!
+
+and source ~/.bash_profile
 
 ### *Bash* 5 commands is all you need to get started!
 Seriously, 5 commands will get you VERY far in coding. Open a Terminal and getting a feel of what is happening and start playing. 
