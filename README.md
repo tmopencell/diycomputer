@@ -1,7 +1,7 @@
 # Make your own computer:
 
-This is a project where you will make your own computer and learn the basics of coding! It is intended for people who have never coded before but could still have some interesting bits for people who like low-cost DIY computer projects.
-This is the accompanying notes for a lecture course given at the RCA 23rd October 2019. However, I wrote it so that anyone can use it! Please give feedback so we can imprve the course! 
+This is a project where you will make your own computer and learn the basics of coding! It is intended for people who have never coded before but still has plenty of interesting bits for anyone interested low-cost DIY computer projects.
+This is also the accompanying notes for a lecture course given at the Royal College of Art Fashion Dpet. on 23rd October 2019. However, it is written so that anyone can use it! Please give feedback so we can improve the course! 
 
 It is broken into 3 main chapters:
 
@@ -163,6 +163,49 @@ Sign up like you would for any webpage with a username and a password. You will 
     - 
 **Terminal**
 A terminal is your "_command line interface_" and is you link to the under the hood of your computer. If you are using a Raspberry Pi then all you need to do is to select the terminal from the drop down menu in the right corner! If you are a mac user then you can type **cmd** + **space** and then type **terminal** and the default terminal will open. Using Windows? God help you.. Go elsewhere, this tutorial is not for you. **NOTE** for mac users you can install [**iterm2**](https://iterm2.com/) which is a nice alternative to the not so nice built-in terminal.
+
+Your terminal can be customised and improved in a few ways. I recommend doing the following:
+
+- Change your "_shell_" from **bash** to **zsh** ([instuctions for other systems](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) by typing:  
+
+`apt install zsh`
+
+- Then restart your terminal
+
+- You will also want to add some additional tools from the package "**oh my zsh**" ([instructions for other systems](https://github.com/robbyrussell/oh-my-zsh)):  
+
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+then  
+
+`chsh -s $(which zsh)`
+
+This tutorial talks about how to [add some more customisations](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/) for your terminal but the most important is autocomplete text (ideal for lazy coders) and an updated theme. Type the following: 
+
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`  
+
+`git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`  
+
+`nano ~/.zshrc`  
+
+Fing the section: `ZSH_THEME="robbyrussell"` and edit it to read `ZSH_THEME="**Avit**"`.  
+
+Then find the section `plugins=(git)` and edit it to look like this: 
+
+```
+plugins=(
+  git
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+)
+```  
+
+Then type: 
+
+`source ~/.zshrc`  
+
+ Now you have sytax highlighting and autosuggestions enabled. This makes your _shell_ a much prettier and more convenient place.
+
 
 **Sublime Text 2**
 If you want to be lazy and write code then [Sublime Text 2](https://www.sublimetext.com/2) is your friend. It will have different colours for different commands and auto fill stuff out for you. Complete laziness. 
